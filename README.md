@@ -1,61 +1,77 @@
 Creating a Telegram Bot
-Let's get started! In this tutorial we'll use the Python library provided by Telegram called python-telegram-bot.
 
-Fire up a command line and install the required libraries through your command line by running:
+Let's get started! In this tutorial we'll use the Python library provided by Telegram called [python-telegram-bot](https://github.com/python-telegram-bot/).
+Let's get started!
 
-pip install -r requirements.txt
+1. Fire up a command line and install the required libraries through your command line by running:
+In this tutorial you'll get a Telegram Bot up and running on your local enviornment. Later you'll also learn how to deploy it to your OpenShift server.
 
-Create or sign in to your Telegram Account
+	`pip install -r requirements.txt`
+We'll use the Python library provided by Telegram called [python-telegram-bot](https://github.com/python-telegram-bot/).
 
-Search for @INFOTECH_C_BotFather
+2. Create or sign in to your [Telegram Account](https://web.telegram.org/)
+To begin, you'll need a Telegram Access Token for your Bot.
 
-Search for @INFOTECH_C_BotFather
+3. Search for `@BotFather`
+1. Create or sign in to your [Telegram Account](https://web.telegram.org/)
 
-Initialize a conversation with the @INFOTECH_C_BotFather
+2. Search for `@BotFather`
 
-Initialize Conversation with INFOTECH_C_BotFather
+	![Search for @BotFather](demo/botfather_conversation.png "Search for @BotFather")
 
-Create a new bot by typing /newbot and follow the guided process.
+4. Initialize a conversation with the `@BotFather`
+3. Initialize a conversation with the `@BotFather`
 
-Congratulations, you've created your Telegram Bot :)
+	![Initialize Conversation with BotFather](demo/botfather_init.png "Initialize Conversation with BotFather")
 
-Generate an access token which you'll need to communicate with your bot by typing /token
+5. Create a new bot by typing `/newbot` and follow the guided process.
+4. Create a new bot by typing `/newbot` and follow the guided process.
 
-Replace your Telegram access token in telegram.py
+	Congratulations, you've created your Telegram Bot :) 
 
-Then import telegram.py via import telegram at the top of your main.py
+6. Generate an access token which you'll need to communicate with your bot by typing `/token`
+5. Generate an access token which you'll need to communicate with your bot by typing `/token`
 
-Your Bot supports following things:
+6. Replace your Telegram access token in `telegram.py` by `YOUR TOKEN`
 
-/start /start command
-/hello /hello command
-/help /help command
-/caps your text Caps text
-Echoes messages Echo text
-Notes
-Add @Hello_Telegram_Bot and send him a message to test the features in this tutorial.
+7. Fire up a command line and install the `python-telegram-bot` library through your command line by running:
 
-Find more infos and documentation about python-telegram-bot at https://github.com/python-telegram-bot/
+7. Replace your Telegram access token in `telegram.py`
+	`pip install python-telegram-bot`
 
-Examples by python-telegram-bot
-Get inspired by more Examples here:
+8. Then import `telegram.py` via `import telegram` at the top of your `main.py`
+9. To start your bot run `python bot.py` (stop your bot by running CTRL+Z)
 
-echobot2.py
+9. Your Bot supports following things:
+10. Your Bot supports the following inputs:
+	* /start
+	![/start command](demo/botfather_start.png "/start command")
+	* /hello
+@@ -38,12 +44,18 @@ Let's get started! In this tutorial we'll use the Python library provided by Tel
+	* Echoes messages
+	![Echo text](demo/botfather_echo.png "Echo text")
 
-This is probably the base for most of the bots made with python-telegram-bot. It simply replies to each text message with a message that contains the same text.
+### Deploying your bot to OpenShift
 
-timerbot.py
+Coming soon …
 
-This bot uses the JobQueue class to send timed messages. The user sets a timer by using /set command with a specific time, for example /set 30. The bot then sets up a job to send a message to that user after 30 seconds. The user can also cancel the timer by sending /unset. To learn more about the JobQueue, read this wiki article.
+## Notes
 
-conversationbot.py
+Add `@Hello_Telegram_Bot` and send him a message to test the features in this tutorial.
 
-A common task for a bot is to ask information from the user. In v5.0 of this library, we introduced the ConversationHandler for that exact purpose. This example uses it to retrieve user-information in a conversation-like style.
+Find more infos and documentation about `python-telegram-bot` at [https://github.com/python-telegram-bot/](https://github.com/python-telegram-bot/)
 
-inlinekeyboard.py
+To send 🔊 audio, 🖼 photos, etc check out the [Telegram Bot API](https://core.telegram.org/bots/api) 🙂
 
-This example sheds some light on inline keyboards, callback queries and message editing.
+### Examples by `python-telegram-bot`
 
-inlinebot.py
+Get inspired by more [Examples](https://github.com/python-telegram-bot/python-telegram-bot/tree/master/examples) here:
+@@ -66,4 +78,7 @@ This example sheds some light on inline keyboards, callback queries and message
 
-A basic example of an https://core.telegram.org/bots/inline bot. Don't forget to enable inline mode with @INFOTECH_C_BotFather.
+**[`inlinebot.py`](https://github.com/python-telegram-bot/python-telegram-bot/blob/master/examples/inlinebot.py)**
+
+A basic example of an [inline bot](https://core.telegram.org/bots/inline). Don't forget to enable inline mode with [@INFOTECH_C_BotFather_bot](https://telegram.me/BotFather).
+A basic example of an [inline bot](https://core.telegram.org/bots/inline). Don't forget to enable inline mode with [@INFOTECH_C_BotFather_bot](https://telegram.me/BotFather).
+
+
+
