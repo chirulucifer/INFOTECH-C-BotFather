@@ -1,4 +1,4 @@
-Creating a Telegram Bot
+# Creating a Telegram Bot
 
 Let's get started! In this tutorial we'll use the Python library provided by Telegram called [python-telegram-bot](https://github.com/python-telegram-bot/).
 Let's get started!
@@ -70,8 +70,8 @@ Get inspired by more [Examples](https://github.com/python-telegram-bot/python-te
 
 **[`inlinebot.py`](https://github.com/python-telegram-bot/python-telegram-bot/blob/master/examples/inlinebot.py)**
 
-A basic example of an [inline bot](https://core.telegram.org/bots/inline). Don't forget to enable inline mode with [@INFOTECH_C_BotFather_bot](https://telegram.me/BotFather).
-A basic example of an [inline bot](https://core.telegram.org/bots/inline). Don't forget to enable inline mode with [@INFOTECH_C_BotFather_bot](https://telegram.me/BotFather).
+A basic example of an [inline bot](https://core.telegram.org/bots/inline). Don't forget to enable inline mode with [@BotFather](https://telegram.me/BotFather).
+A basic example of an [inline bot](https://core.telegram.org/bots/inline). Don't forget to enable inline mode with [@BotFather](https://telegram.me/BotFather).
 
 
 
