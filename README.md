@@ -58,4 +58,4 @@ This example sheds some light on inline keyboards, callback queries and message 
 
 inlinebot.py
 
-A basic example of an inline bot. Don't forget to enable inline mode with @INFOTECH_C_BotFather.
+A basic example of an https://core.telegram.org/bots/inline bot. Don't forget to enable inline mode with @INFOTECH_C_BotFather.
