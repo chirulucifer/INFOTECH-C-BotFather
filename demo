@@ -1,0 +1,61 @@
+Creating a Telegram Bot
+Let's get started! In this tutorial we'll use the Python library provided by Telegram called python-telegram-bot.
+
+Fire up a command line and install the required libraries through your command line by running:
+
+pip install -r requirements.txt
+
+Create or sign in to your Telegram Account
+
+Search for @INFOTECH_C_BotFather_bot
+
+Search for @INFOTECH_C_BotFather_bot
+
+Initialize a conversation with the @BotFather
+
+Initialize Conversation with BotFather
+
+Create a new bot by typing /newbot and follow the guided process.
+
+Congratulations, you've created your Telegram Bot :)
+
+Generate an access token which you'll need to communicate with your bot by typing /token
+
+Replace your Telegram access token in telegram.py
+
+Then import telegram.py via import telegram at the top of your main.py
+
+Your Bot supports following things:
+
+/start /start command
+/hello /hello command
+/help /help command
+/caps your text Caps text
+Echoes messages Echo text
+Notes
+Add @Hello_Telegram_Bot and send him a message to test the features in this tutorial.
+
+Find more infos and documentation about python-telegram-bot at https://github.com/python-telegram-bot/
+
+Examples by python-telegram-bot
+Get inspired by more Examples here:
+
+echobot2.py
+
+This is probably the base for most of the bots made with python-telegram-bot. It simply replies to each text message with a message that contains the same text.
+
+timerbot.py
+
+This bot uses the JobQueue class to send timed messages. The user sets a timer by using /set command with a specific time, for example /set 30. The bot then sets up a job to send a message to that user after 30 seconds. The user can also cancel the timer by sending /unset. To learn more about the JobQueue, read this wiki article.
+
+conversationbot.py
+
+A common task for a bot is to ask information from the user. In v5.0 of this library, we introduced the ConversationHandler for that exact purpose. This example uses it to retrieve user-information in a conversation-like style.
+
+inlinekeyboard.py
+
+This example sheds some light on inline keyboards, callback queries and message editing.
+
+inlinebot.py
+
+A basic example of an inline bot. Don't forget to enable inline mode with @INFOTECH_C_BotFather_bot.
